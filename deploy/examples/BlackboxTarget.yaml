@@ -2,6 +2,7 @@ apiVersion: applicationmonitoring.integreatly.org/v1alpha1
 kind: BlackboxTarget
 metadata:
   name: example-blackboxtarget
+  namespace: application-monitoring
 spec:
   blackboxTargets:
     - service: example
